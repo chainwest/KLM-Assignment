@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1E63834A2A0125370097E4DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6383492A0125370097E4DB /* AppDelegate.swift */; };
-		1E63834C2A0125370097E4DB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E63834B2A0125370097E4DB /* SceneDelegate.swift */; };
-		1E63834E2A0125370097E4DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E63834D2A0125370097E4DB /* ViewController.swift */; };
-		1E6383512A0125370097E4DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E63834F2A0125370097E4DB /* Main.storyboard */; };
 		1E6383532A0125380097E4DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E6383522A0125380097E4DB /* Assets.xcassets */; };
 		1E6383562A0125380097E4DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E6383542A0125380097E4DB /* LaunchScreen.storyboard */; };
 		1E6383612A0125390097E4DB /* KLM_AssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6383602A0125390097E4DB /* KLM_AssignmentTests.swift */; };
@@ -38,9 +35,6 @@
 /* Begin PBXFileReference section */
 		1E6383462A0125370097E4DB /* KLM Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KLM Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E6383492A0125370097E4DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1E63834B2A0125370097E4DB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1E63834D2A0125370097E4DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1E6383502A0125370097E4DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1E6383522A0125380097E4DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E6383552A0125380097E4DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E6383572A0125380097E4DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -99,13 +93,8 @@
 		1E6383482A0125370097E4DB /* KLM Assignment */ = {
 			isa = PBXGroup;
 			children = (
-				1E6383492A0125370097E4DB /* AppDelegate.swift */,
-				1E63834B2A0125370097E4DB /* SceneDelegate.swift */,
-				1E63834D2A0125370097E4DB /* ViewController.swift */,
-				1E63834F2A0125370097E4DB /* Main.storyboard */,
-				1E6383522A0125380097E4DB /* Assets.xcassets */,
-				1E6383542A0125380097E4DB /* LaunchScreen.storyboard */,
-				1E6383572A0125380097E4DB /* Info.plist */,
+				1E63837A2A0125820097E4DB /* Sources */,
+				1E6383792A01257A0097E4DB /* Resources */,
 			);
 			path = "KLM Assignment";
 			sourceTree = "<group>";
@@ -125,6 +114,72 @@
 				1E63836C2A0125390097E4DB /* KLM_AssignmentUITestsLaunchTests.swift */,
 			);
 			path = "KLM AssignmentUITests";
+			sourceTree = "<group>";
+		};
+		1E6383792A01257A0097E4DB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1E6383522A0125380097E4DB /* Assets.xcassets */,
+				1E6383542A0125380097E4DB /* LaunchScreen.storyboard */,
+				1E6383572A0125380097E4DB /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1E63837A2A0125820097E4DB /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1E63837B2A0125890097E4DB /* App */,
+				1E63837F2A0125E40097E4DB /* Extension */,
+				1E63837D2A0125DC0097E4DB /* Model */,
+				1E63837C2A0125D70097E4DB /* Module */,
+				1E6383802A0125E80097E4DB /* Service */,
+				1E63837E2A0125DF0097E4DB /* Util */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		1E63837B2A0125890097E4DB /* App */ = {
+			isa = PBXGroup;
+			children = (
+				1E6383492A0125370097E4DB /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		1E63837C2A0125D70097E4DB /* Module */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		1E63837D2A0125DC0097E4DB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1E63837E2A0125DF0097E4DB /* Util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		1E63837F2A0125E40097E4DB /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		1E6383802A0125E80097E4DB /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +288,6 @@
 			files = (
 				1E6383562A0125380097E4DB /* LaunchScreen.storyboard in Resources */,
 				1E6383532A0125380097E4DB /* Assets.xcassets in Resources */,
-				1E6383512A0125370097E4DB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E63834E2A0125370097E4DB /* ViewController.swift in Sources */,
 				1E63834A2A0125370097E4DB /* AppDelegate.swift in Sources */,
-				1E63834C2A0125370097E4DB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +349,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1E63834F2A0125370097E4DB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1E6383502A0125370097E4DB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1E6383542A0125380097E4DB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -366,7 +410,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +464,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -439,10 +483,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QF45TRFY3M;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "KLM Assignment/Info.plist";
+				INFOPLIST_FILE = "KLM Assignment/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -467,10 +511,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QF45TRFY3M;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "KLM Assignment/Info.plist";
+				INFOPLIST_FILE = "KLM Assignment/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -495,7 +539,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QF45TRFY3M;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "eurbanovskiy.KLM-AssignmentTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -515,7 +559,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QF45TRFY3M;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "eurbanovskiy.KLM-AssignmentTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
