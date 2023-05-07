@@ -10,9 +10,42 @@
 		1E63834A2A0125370097E4DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6383492A0125370097E4DB /* AppDelegate.swift */; };
 		1E6383532A0125380097E4DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E6383522A0125380097E4DB /* Assets.xcassets */; };
 		1E6383562A0125380097E4DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E6383542A0125380097E4DB /* LaunchScreen.storyboard */; };
-		1E6383612A0125390097E4DB /* KLM_AssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6383602A0125390097E4DB /* KLM_AssignmentTests.swift */; };
 		1E63836B2A0125390097E4DB /* KLM_AssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E63836A2A0125390097E4DB /* KLM_AssignmentUITests.swift */; };
 		1E63836D2A0125390097E4DB /* KLM_AssignmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E63836C2A0125390097E4DB /* KLM_AssignmentUITestsLaunchTests.swift */; };
+		1E6383862A0126EF0097E4DB /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 1E6383852A0126EF0097E4DB /* Moya */; };
+		1E6383892A0127530097E4DB /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 1E6383882A0127530097E4DB /* Realm */; };
+		1E63838B2A0127530097E4DB /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1E63838A2A0127530097E4DB /* RealmSwift */; };
+		1E63838E2A0128550097E4DB /* ReuseIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E63838D2A0128550097E4DB /* ReuseIdentifiable.swift */; };
+		1E6383902A0128900097E4DB /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E63838F2A0128900097E4DB /* MainCoordinator.swift */; };
+		1E6383922A01292B0097E4DB /* JobsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6383912A01292B0097E4DB /* JobsListViewModel.swift */; };
+		1E6383942A0129450097E4DB /* JobsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6383932A0129450097E4DB /* JobsListViewController.swift */; };
+		1E6383962A0129630097E4DB /* JobsListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6383952A0129630097E4DB /* JobsListCoordinator.swift */; };
+		1E63839D2A012CC40097E4DB /* JobsListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E63839C2A012CC40097E4DB /* JobsListResponse.swift */; };
+		1E63839F2A012CDD0097E4DB /* JobResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E63839E2A012CDD0097E4DB /* JobResponse.swift */; };
+		1E6383A12A012CEB0097E4DB /* LinksResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6383A02A012CEB0097E4DB /* LinksResponse.swift */; };
+		1E6383A32A012CF50097E4DB /* MetaResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6383A22A012CF50097E4DB /* MetaResponse.swift */; };
+		1E6383A52A012DE70097E4DB /* JobsType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6383A42A012DE70097E4DB /* JobsType.swift */; };
+		1E6383A72A012E880097E4DB /* JobsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6383A62A012E880097E4DB /* JobsProvider.swift */; };
+		1E6383A92A0133550097E4DB /* JobDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6383A82A0133550097E4DB /* JobDTO.swift */; };
+		1E6383AB2A01349D0097E4DB /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6383AA2A01349D0097E4DB /* StorageService.swift */; };
+		1E6383AF2A01350B0097E4DB /* JobObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6383AE2A01350B0097E4DB /* JobObject.swift */; };
+		1E6383B12A0144A50097E4DB /* JobsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6383B02A0144A50097E4DB /* JobsRepository.swift */; };
+		1E6383B32A02F8BA0097E4DB /* RealmResults+toArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6383B22A02F8BA0097E4DB /* RealmResults+toArray.swift */; };
+		1E6383B52A02FAD70097E4DB /* JobsFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6383B42A02FAD70097E4DB /* JobsFacade.swift */; };
+		1E6383B72A0304CE0097E4DB /* JobsDataSourceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6383B62A0304CE0097E4DB /* JobsDataSourceProvider.swift */; };
+		1E6383BA2A0306030097E4DB /* JobsListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6383B92A0306030097E4DB /* JobsListCellView.swift */; };
+		1E6383BD2A0310180097E4DB /* JobDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6383BC2A0310180097E4DB /* JobDetailsViewModel.swift */; };
+		1E6383BF2A0310210097E4DB /* JobDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6383BE2A0310210097E4DB /* JobDetailsViewController.swift */; };
+		1E6383C12A03102B0097E4DB /* JobDetailsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6383C02A03102B0097E4DB /* JobDetailsCoordinator.swift */; };
+		1E6383C32A0319770097E4DB /* FontProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6383C22A0319770097E4DB /* FontProvider.swift */; };
+		1E6383C72A0590DB0097E4DB /* String+htmlAttributed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6383C62A0590DB0097E4DB /* String+htmlAttributed.swift */; };
+		1E6383C92A0596FA0097E4DB /* Int+toDateFormattedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6383C82A0596FA0097E4DB /* Int+toDateFormattedString.swift */; };
+		1E6383D22A081EBE0097E4DB /* JobsFacadeMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6383D12A081EBE0097E4DB /* JobsFacadeMock.swift */; };
+		1E6383D42A081F140097E4DB /* JobsListViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6383D32A081F140097E4DB /* JobsListViewModelTest.swift */; };
+		1E6383D72A0820810097E4DB /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 1E6383D62A0820810097E4DB /* Realm */; };
+		1E6383D92A0820810097E4DB /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1E6383D82A0820810097E4DB /* RealmSwift */; };
+		1E6383DB2A0824F00097E4DB /* FontProviderTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6383DA2A0824F00097E4DB /* FontProviderTest.swift */; };
+		1E6383DD2A0828120097E4DB /* UIViewController+presentErrorAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6383DC2A0828120097E4DB /* UIViewController+presentErrorAlert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,10 +72,38 @@
 		1E6383552A0125380097E4DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E6383572A0125380097E4DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E63835C2A0125390097E4DB /* KLM AssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KLM AssignmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E6383602A0125390097E4DB /* KLM_AssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLM_AssignmentTests.swift; sourceTree = "<group>"; };
 		1E6383662A0125390097E4DB /* KLM AssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KLM AssignmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E63836A2A0125390097E4DB /* KLM_AssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLM_AssignmentUITests.swift; sourceTree = "<group>"; };
 		1E63836C2A0125390097E4DB /* KLM_AssignmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLM_AssignmentUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1E63838D2A0128550097E4DB /* ReuseIdentifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReuseIdentifiable.swift; sourceTree = "<group>"; };
+		1E63838F2A0128900097E4DB /* MainCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		1E6383912A01292B0097E4DB /* JobsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsListViewModel.swift; sourceTree = "<group>"; };
+		1E6383932A0129450097E4DB /* JobsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsListViewController.swift; sourceTree = "<group>"; };
+		1E6383952A0129630097E4DB /* JobsListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsListCoordinator.swift; sourceTree = "<group>"; };
+		1E63839C2A012CC40097E4DB /* JobsListResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsListResponse.swift; sourceTree = "<group>"; };
+		1E63839E2A012CDD0097E4DB /* JobResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobResponse.swift; sourceTree = "<group>"; };
+		1E6383A02A012CEB0097E4DB /* LinksResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinksResponse.swift; sourceTree = "<group>"; };
+		1E6383A22A012CF50097E4DB /* MetaResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetaResponse.swift; sourceTree = "<group>"; };
+		1E6383A42A012DE70097E4DB /* JobsType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsType.swift; sourceTree = "<group>"; };
+		1E6383A62A012E880097E4DB /* JobsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsProvider.swift; sourceTree = "<group>"; };
+		1E6383A82A0133550097E4DB /* JobDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDTO.swift; sourceTree = "<group>"; };
+		1E6383AA2A01349D0097E4DB /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		1E6383AE2A01350B0097E4DB /* JobObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobObject.swift; sourceTree = "<group>"; };
+		1E6383B02A0144A50097E4DB /* JobsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsRepository.swift; sourceTree = "<group>"; };
+		1E6383B22A02F8BA0097E4DB /* RealmResults+toArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RealmResults+toArray.swift"; sourceTree = "<group>"; };
+		1E6383B42A02FAD70097E4DB /* JobsFacade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsFacade.swift; sourceTree = "<group>"; };
+		1E6383B62A0304CE0097E4DB /* JobsDataSourceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsDataSourceProvider.swift; sourceTree = "<group>"; };
+		1E6383B92A0306030097E4DB /* JobsListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsListCellView.swift; sourceTree = "<group>"; };
+		1E6383BC2A0310180097E4DB /* JobDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailsViewModel.swift; sourceTree = "<group>"; };
+		1E6383BE2A0310210097E4DB /* JobDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailsViewController.swift; sourceTree = "<group>"; };
+		1E6383C02A03102B0097E4DB /* JobDetailsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailsCoordinator.swift; sourceTree = "<group>"; };
+		1E6383C22A0319770097E4DB /* FontProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontProvider.swift; sourceTree = "<group>"; };
+		1E6383C62A0590DB0097E4DB /* String+htmlAttributed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+htmlAttributed.swift"; sourceTree = "<group>"; };
+		1E6383C82A0596FA0097E4DB /* Int+toDateFormattedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+toDateFormattedString.swift"; sourceTree = "<group>"; };
+		1E6383D12A081EBE0097E4DB /* JobsFacadeMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsFacadeMock.swift; sourceTree = "<group>"; };
+		1E6383D32A081F140097E4DB /* JobsListViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsListViewModelTest.swift; sourceTree = "<group>"; };
+		1E6383DA2A0824F00097E4DB /* FontProviderTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontProviderTest.swift; sourceTree = "<group>"; };
+		1E6383DC2A0828120097E4DB /* UIViewController+presentErrorAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+presentErrorAlert.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +111,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E63838B2A0127530097E4DB /* RealmSwift in Frameworks */,
+				1E6383892A0127530097E4DB /* Realm in Frameworks */,
+				1E6383862A0126EF0097E4DB /* Moya in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +121,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E6383D92A0820810097E4DB /* RealmSwift in Frameworks */,
+				1E6383D72A0820810097E4DB /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +143,7 @@
 				1E63835F2A0125390097E4DB /* KLM AssignmentTests */,
 				1E6383692A0125390097E4DB /* KLM AssignmentUITests */,
 				1E6383472A0125370097E4DB /* Products */,
+				1E6383D52A0820810097E4DB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,7 +169,8 @@
 		1E63835F2A0125390097E4DB /* KLM AssignmentTests */ = {
 			isa = PBXGroup;
 			children = (
-				1E6383602A0125390097E4DB /* KLM_AssignmentTests.swift */,
+				1E6383CF2A081E0C0097E4DB /* Mock */,
+				1E6383D02A081E130097E4DB /* Test */,
 			);
 			path = "KLM AssignmentTests";
 			sourceTree = "<group>";
@@ -150,6 +218,8 @@
 		1E63837C2A0125D70097E4DB /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				1E6383BB2A030F150097E4DB /* Job Details */,
+				1E63838C2A0127690097E4DB /* Jobs List */,
 			);
 			path = Module;
 			sourceTree = "<group>";
@@ -157,6 +227,7 @@
 		1E63837D2A0125DC0097E4DB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1E6383A82A0133550097E4DB /* JobDTO.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -164,6 +235,8 @@
 		1E63837E2A0125DF0097E4DB /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				1E63838F2A0128900097E4DB /* MainCoordinator.swift */,
+				1E6383C22A0319770097E4DB /* FontProvider.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -171,6 +244,11 @@
 		1E63837F2A0125E40097E4DB /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				1E6383C82A0596FA0097E4DB /* Int+toDateFormattedString.swift */,
+				1E6383B22A02F8BA0097E4DB /* RealmResults+toArray.swift */,
+				1E63838D2A0128550097E4DB /* ReuseIdentifiable.swift */,
+				1E6383C62A0590DB0097E4DB /* String+htmlAttributed.swift */,
+				1E6383DC2A0828120097E4DB /* UIViewController+presentErrorAlert.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -178,8 +256,136 @@
 		1E6383802A0125E80097E4DB /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				1E6383832A0126720097E4DB /* Facade */,
+				1E6383812A0126670097E4DB /* Netwoking */,
+				1E6383822A01266C0097E4DB /* Storage */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		1E6383812A0126670097E4DB /* Netwoking */ = {
+			isa = PBXGroup;
+			children = (
+				1E6383982A012BE70097E4DB /* Provider */,
+				1E6383972A012BE10097E4DB /* Response */,
+				1E63839B2A012C810097E4DB /* Type */,
+			);
+			path = Netwoking;
+			sourceTree = "<group>";
+		};
+		1E6383822A01266C0097E4DB /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				1E6383AA2A01349D0097E4DB /* StorageService.swift */,
+				1E6383AC2A0134B70097E4DB /* Object */,
+				1E6383AD2A0134BC0097E4DB /* Repository */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		1E6383832A0126720097E4DB /* Facade */ = {
+			isa = PBXGroup;
+			children = (
+				1E6383B42A02FAD70097E4DB /* JobsFacade.swift */,
+			);
+			path = Facade;
+			sourceTree = "<group>";
+		};
+		1E63838C2A0127690097E4DB /* Jobs List */ = {
+			isa = PBXGroup;
+			children = (
+				1E6383B62A0304CE0097E4DB /* JobsDataSourceProvider.swift */,
+				1E6383952A0129630097E4DB /* JobsListCoordinator.swift */,
+				1E6383932A0129450097E4DB /* JobsListViewController.swift */,
+				1E6383912A01292B0097E4DB /* JobsListViewModel.swift */,
+				1E6383B82A0305F50097E4DB /* Cell */,
+			);
+			path = "Jobs List";
+			sourceTree = "<group>";
+		};
+		1E6383972A012BE10097E4DB /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				1E63839E2A012CDD0097E4DB /* JobResponse.swift */,
+				1E63839C2A012CC40097E4DB /* JobsListResponse.swift */,
+				1E6383A02A012CEB0097E4DB /* LinksResponse.swift */,
+				1E6383A22A012CF50097E4DB /* MetaResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		1E6383982A012BE70097E4DB /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				1E6383A62A012E880097E4DB /* JobsProvider.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		1E63839B2A012C810097E4DB /* Type */ = {
+			isa = PBXGroup;
+			children = (
+				1E6383A42A012DE70097E4DB /* JobsType.swift */,
+			);
+			path = Type;
+			sourceTree = "<group>";
+		};
+		1E6383AC2A0134B70097E4DB /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				1E6383AE2A01350B0097E4DB /* JobObject.swift */,
+			);
+			path = Object;
+			sourceTree = "<group>";
+		};
+		1E6383AD2A0134BC0097E4DB /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				1E6383B02A0144A50097E4DB /* JobsRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		1E6383B82A0305F50097E4DB /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1E6383B92A0306030097E4DB /* JobsListCellView.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		1E6383BB2A030F150097E4DB /* Job Details */ = {
+			isa = PBXGroup;
+			children = (
+				1E6383C02A03102B0097E4DB /* JobDetailsCoordinator.swift */,
+				1E6383BE2A0310210097E4DB /* JobDetailsViewController.swift */,
+				1E6383BC2A0310180097E4DB /* JobDetailsViewModel.swift */,
+			);
+			path = "Job Details";
+			sourceTree = "<group>";
+		};
+		1E6383CF2A081E0C0097E4DB /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				1E6383D12A081EBE0097E4DB /* JobsFacadeMock.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		1E6383D02A081E130097E4DB /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				1E6383D32A081F140097E4DB /* JobsListViewModelTest.swift */,
+				1E6383DA2A0824F00097E4DB /* FontProviderTest.swift */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		1E6383D52A0820810097E4DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +404,11 @@
 			dependencies = (
 			);
 			name = "KLM Assignment";
+			packageProductDependencies = (
+				1E6383852A0126EF0097E4DB /* Moya */,
+				1E6383882A0127530097E4DB /* Realm */,
+				1E63838A2A0127530097E4DB /* RealmSwift */,
+			);
 			productName = "KLM Assignment";
 			productReference = 1E6383462A0125370097E4DB /* KLM Assignment.app */;
 			productType = "com.apple.product-type.application";
@@ -216,6 +427,10 @@
 				1E63835E2A0125390097E4DB /* PBXTargetDependency */,
 			);
 			name = "KLM AssignmentTests";
+			packageProductDependencies = (
+				1E6383D62A0820810097E4DB /* Realm */,
+				1E6383D82A0820810097E4DB /* RealmSwift */,
+			);
 			productName = "KLM AssignmentTests";
 			productReference = 1E63835C2A0125390097E4DB /* KLM AssignmentTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -253,6 +468,7 @@
 					};
 					1E63835B2A0125390097E4DB = {
 						CreatedOnToolsVersion = 14.1;
+						LastSwiftMigration = 1410;
 						TestTargetID = 1E6383452A0125370097E4DB;
 					};
 					1E6383652A0125390097E4DB = {
@@ -270,6 +486,10 @@
 				Base,
 			);
 			mainGroup = 1E63833D2A0125370097E4DB;
+			packageReferences = (
+				1E6383842A0126EF0097E4DB /* XCRemoteSwiftPackageReference "Moya" */,
+				1E6383872A0127530097E4DB /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = 1E6383472A0125370097E4DB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -312,7 +532,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E6383922A01292B0097E4DB /* JobsListViewModel.swift in Sources */,
+				1E63838E2A0128550097E4DB /* ReuseIdentifiable.swift in Sources */,
+				1E6383BA2A0306030097E4DB /* JobsListCellView.swift in Sources */,
+				1E6383942A0129450097E4DB /* JobsListViewController.swift in Sources */,
+				1E6383B32A02F8BA0097E4DB /* RealmResults+toArray.swift in Sources */,
+				1E6383902A0128900097E4DB /* MainCoordinator.swift in Sources */,
+				1E6383962A0129630097E4DB /* JobsListCoordinator.swift in Sources */,
+				1E6383C32A0319770097E4DB /* FontProvider.swift in Sources */,
+				1E6383A72A012E880097E4DB /* JobsProvider.swift in Sources */,
+				1E63839D2A012CC40097E4DB /* JobsListResponse.swift in Sources */,
+				1E6383AF2A01350B0097E4DB /* JobObject.swift in Sources */,
+				1E6383A92A0133550097E4DB /* JobDTO.swift in Sources */,
+				1E6383C92A0596FA0097E4DB /* Int+toDateFormattedString.swift in Sources */,
+				1E63839F2A012CDD0097E4DB /* JobResponse.swift in Sources */,
+				1E6383B72A0304CE0097E4DB /* JobsDataSourceProvider.swift in Sources */,
 				1E63834A2A0125370097E4DB /* AppDelegate.swift in Sources */,
+				1E6383A12A012CEB0097E4DB /* LinksResponse.swift in Sources */,
+				1E6383A52A012DE70097E4DB /* JobsType.swift in Sources */,
+				1E6383B12A0144A50097E4DB /* JobsRepository.swift in Sources */,
+				1E6383DD2A0828120097E4DB /* UIViewController+presentErrorAlert.swift in Sources */,
+				1E6383A32A012CF50097E4DB /* MetaResponse.swift in Sources */,
+				1E6383C12A03102B0097E4DB /* JobDetailsCoordinator.swift in Sources */,
+				1E6383AB2A01349D0097E4DB /* StorageService.swift in Sources */,
+				1E6383C72A0590DB0097E4DB /* String+htmlAttributed.swift in Sources */,
+				1E6383BF2A0310210097E4DB /* JobDetailsViewController.swift in Sources */,
+				1E6383B52A02FAD70097E4DB /* JobsFacade.swift in Sources */,
+				1E6383BD2A0310180097E4DB /* JobDetailsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,7 +566,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E6383612A0125390097E4DB /* KLM_AssignmentTests.swift in Sources */,
+				1E6383DB2A0824F00097E4DB /* FontProviderTest.swift in Sources */,
+				1E6383D42A081F140097E4DB /* JobsListViewModelTest.swift in Sources */,
+				1E6383D22A081EBE0097E4DB /* JobsFacadeMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -535,15 +783,22 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QF45TRFY3M;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "eurbanovskiy.KLM-AssignmentTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KLM Assignment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KLM Assignment";
@@ -555,11 +810,17 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QF45TRFY3M;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "eurbanovskiy.KLM-AssignmentTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -646,6 +907,53 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1E6383842A0126EF0097E4DB /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.0;
+			};
+		};
+		1E6383872A0127530097E4DB /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.38.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1E6383852A0126EF0097E4DB /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1E6383842A0126EF0097E4DB /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		1E6383882A0127530097E4DB /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1E6383872A0127530097E4DB /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		1E63838A2A0127530097E4DB /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1E6383872A0127530097E4DB /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		1E6383D62A0820810097E4DB /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1E6383872A0127530097E4DB /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		1E6383D82A0820810097E4DB /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1E6383872A0127530097E4DB /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1E63833E2A0125370097E4DB /* Project object */;
 }
