@@ -17,11 +17,11 @@ final class JobsRepository {
     }
     
     func deleteJobs() {
-        try? storage.deleteAll()
+        storage.deleteAll()
     }
     
     func saveJobs(dto: [JobDTO]) {
         let cache = dto.map(JobObject.init)
-        try? storage.saveOrUpdateAllObjects(objects: cache)
+        storage.saveOrUpdateAllObjects(objects: cache)
     }
 }

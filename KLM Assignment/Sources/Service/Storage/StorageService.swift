@@ -39,7 +39,7 @@ final class StorageService {
 
     func fetch<T: Object>(by type: T.Type) -> Results<T> {
         guard let storage = storage else {
-            let config = Realm.Configuration(inMemoryIdentifier: "temp")
+            let config = Realm.Configuration(inMemoryIdentifier: "inMemory")
             let realm = try! Realm(configuration: config)
             return realm.objects(T.self)
         }
@@ -47,7 +47,7 @@ final class StorageService {
     }
 
     private func performWriteOperation(_ operation: @escaping (Realm) -> Void) {
-        guard let storage = storage else { return }
+        guard let storage else { return }
         try? storage.write {
             operation(storage)
         }
