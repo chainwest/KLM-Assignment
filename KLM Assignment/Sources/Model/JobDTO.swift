@@ -16,18 +16,6 @@ struct JobDTO: Hashable {
     let url: String
     let location: String
     let createdAt: Int
-    
-    var jobDetailsTitleString: String {
-        "\(title) at \(companyName)"
-    }
-    
-    var jobDescriptionAttributedString: NSAttributedString? {
-        description.htmlAttributed()
-    }
-    
-    var jobDateOfCreationsString: String {
-        createdAt.toDateFormattedString()
-    }
 }
 
 extension JobDTO {

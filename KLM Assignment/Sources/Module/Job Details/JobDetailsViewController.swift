@@ -81,20 +81,20 @@ final class JobDetailsViewController: UIViewController {
     private func setupTitleLabel() {
         titleLabel.font = FontProvider.titleBold
         titleLabel.numberOfLines = 0
-        titleLabel.text = viewModel.element.jobDetailsTitleString
+        titleLabel.text = viewModel.jobDetailsTitleString
         stackView.addArrangedSubview(titleLabel)
     }
     
     private func setupDescriptionLabel() {
         descriptionLabel.font = FontProvider.bodyMedium
         descriptionLabel.numberOfLines = 0
-        descriptionLabel.attributedText = viewModel.element.jobDescriptionAttributedString
+        descriptionLabel.attributedText = viewModel.jobDescriptionAttributedString
         stackView.addArrangedSubview(descriptionLabel)
     }
     
     private func setupDateLabel() {
         dateLabel.font = FontProvider.bodyMedium
-        dateLabel.text = viewModel.element.jobDateOfCreationsString
+        dateLabel.text = viewModel.jobDateOfCreationsString
         stackView.addArrangedSubview(dateLabel)
     }
 }
